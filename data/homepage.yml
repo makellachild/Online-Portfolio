@@ -1,0 +1,92 @@
+---
+banner:
+  title: Hi! I’m Makella!
+social:
+  twitter: ""
+  linkedin: makella-child-647916125
+  github: makellachild
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: makella.child09
+about:
+  enable: true
+  content: Senior IT student from Utah Valley University
+  button:
+    btnText: Find out more
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: Active Directory
+      logo: https://cdn.freebiesupply.com/logos/large/2x/azure-active-directory-logo-png-transparent.png
+      description: Promoted Windows Servers to a web server, domain controller, or a file
+        share server. Managed and configured OUs and groups
+    - title: Linux
+      logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png
+      description: 'Used a variety of distros for managing users, configuring software, and analyzing network information'
+    - title: SQL
+      logo: 'https://www.faceofit.com/wp-content/uploads/2016/04/logoAzureSql.png'
+      description: Create, manage, and backup relational databases for websites and data
+        warehouses
+    - title: Technical Documentation
+      logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Black_pencil.svg/600px-Black_pencil.svg.png
+      description:
+        Written how-to technical guides and documentation for personal and
+        enterprise use
+    - title: Virtualization
+      logo: https://integritypartners.pl/wp-content/uploads/2018/03/azure.png
+      description:
+        Experienced with setting up VMs on VMWare Workstation and VirtualBox.
+        Use virtual machines on a daily basis for various tasks
+    - title: Windows
+      logo: http://accessfirefox.org/images/index_page/Windows-10-logo-larger.png
+      description: Main operating system, know how to troubleshoot and configure Windows OS
+        client and server machines
+experience:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: init.g
+      company: Google
+      duration: November 2019
+hackathons:
+  enable: true
+  item:
+    - title: CyberPatriot VIII 2015-2016
+      description: Competed in an all-women's team
+      image: https://www.uscyberpatriot.org/SiteCollectionImages/Program%20Logos/CYBERPATRIOT_Education%20Program_black.png
+      url: https://www.uscyberpatriot.org
+    - title: NIATEC Invitational Collegiate Cyber Defense Competiton 2019
+      description: Blue-team competitor
+      image: https://niccdc.niatec.iri.isu.edu/Content/NiatecLogoBlue.png
+      url: https://niccdc.niatec.iri.isu.edu   
+    - title: National Collegiate Cyber Defense Competition 2020
+      description: Blue-team competitor in the Rocky Mountain Region
+      image: http://student.uncw.edu/org/cyberdefenseclub/Images/comps/CCDC_logo.png
+      url: http://www.nationalccdc.org/index.php
+certifications:
+  enable: false
+  item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+education:
+  enable: false
+  item:
+    - title: BSc Information Technology
+      year: 2018 - Present
+      academy: Utah Valley University
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+leadership:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
+      title: Young Leader
+      company: The Scout Association
+      duration: September 2014 - July 2018
+portfolio:
+    enable: false
+    filter:
+    - label: Web Dev
+      value: web-dev

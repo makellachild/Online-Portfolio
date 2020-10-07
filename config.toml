@@ -1,0 +1,44 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Makella's Portfolio"
+theme = "hugo-developer-portfolio"
+
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+# navigation
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  
+[params]
+home = "Home" # What you want the homepage to show up as in the menu bar
+# Meta data
+description = "Online portfolio of Makella Child"
+author = "Makella Child"
+
+  [params.contact]
+  formAction = "https://formspree.io/<Insert code>" # Add your formspree URL here to get emails
+
+  # This contains the contact information for the footer
+  [params.footer]
+  email = "makella.child09@gmail.com"
+  address = "United States"
+  googlemaps = "https://www.google.com/maps/place/United+States/@36.2408038,-113.7584948,4z/data=!3m1!4b1!4m5!3m4!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891"
