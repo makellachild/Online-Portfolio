@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://voyagur.net/"
 languageCode = "en-us"
 title = "Makella's Portfolio"
 theme = "hugo-developer-portfolio"
+publishDir = "docs"
 
 [params.plugins]
   # CSS Plugins
